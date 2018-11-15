@@ -7,7 +7,9 @@
 
 ### Data
   My original dataset was from Kaggle, consisting of 87,000 images across 29 classes, every letter of the alphabet plus 'space' and 'delete' characters as well as a set of empty backgrounds. This was a pre-arranged dataset, with every class in individual folders, but with a tiny test set. The test set consisted of 29 images, one for each class, and nothing else, making validation somewhat difficult. This led to me augmenting the training set with images I found in another kaggle dataset, as well as images I took myself.
+  
   ![ADD IMAGE OF STATS](images/bad.png)
+  
   This proved to be my downfall, as I discovered the data was incredibly specialized, and any outside images weren't recognized. My accuracy plummeted to 5% from where it was, and a new plan was needed.
 ### Transfer Learning and Data Augmentation
   I then decided to move to transfer learning and create a new, smaller dataset to predict for actual use cases. This led to an in-depth exploration of OpenCV's video reading and image classification methods,something I had not planned to explore so soon. I developed a script to read a video, take individual frames from said video, and then resize and crop the images before saving them. This allowed me to build an initial dataset of ~1200 images that I planned to use with the XCeption model from keras.
