@@ -12,10 +12,18 @@
 ### Transfer Learning and Data Augmentation
   I then decided to move to transfer learning and create a new, smaller dataset to predict for actual use cases. This led to an in-depth exploration of OpenCV's video reading and image classification methods,something I had not planned to explore so soon. I developed a script to read a video, take individual frames from said video, and then resize and crop the images before saving them. This allowed me to build an initial dataset of ~1200 images that I planned to use with the XCeption model from keras.
   [ADD IMAGE OF AUG PROG]
+  The transfer learning began to run into isssues showing my model was not properly optimized for the images I was using. This led me back to using my old model, and creating my own dataset of approximately ~6000 images to start. I wanted a small baseline to begin with, and this seemed best. I wrote another program that piggybacked off of my earlier program to automatically name and assign images from video, and used my computer webcam to extend my dataset.
 ### Model
   [ADD TENSORBOARD IMAGE]
+  I ended up using a 
 ### Results
-
+  
 ### For the Future
-  I would want to put this into a Flask app so it could be accessed from the Internet and from any browser. Beyond that It could even be ported to phones, making translation from deaf to hearing people easier.
+  I would want to put this into a Flask app so it could be accessed from the Internet and from any browser. Beyond that It could even be ported to phones, making translation from deaf to hearing people easier. I also intend to pour more time into coming up with a better model and a larger dataset.
 ### References
+
+http://cs231n.stanford.edu/reports/2016/pdfs/214_Report.pdf
+
+https://arxiv.org/pdf/1806.02682.pdf
+
+https://www.kaggle.com/grassknoted/asl-alphabet
