@@ -30,3 +30,5 @@ http://cs231n.stanford.edu/reports/2016/pdfs/214_Report.pdf
 https://arxiv.org/pdf/1806.02682.pdf
 
 https://www.kaggle.com/grassknoted/asl-alphabet
+
+https://commons.wikimedia.org/wiki/File:Asl_alphabet_gallaudet.png
