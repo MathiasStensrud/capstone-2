@@ -18,7 +18,8 @@
 ### Model
   I ended up using another transfer learning model based off of InceptionV3 when my accuracy on a custom CNN did not improve as much as I had hoped. This resulted in much higher accuracies than before, and even a slightly better training time for similar results. However, this this overfit by a great deal, most likely due to a sparcity of data.
 ### Results
-  My best model accuracy was 49%, with a transfer learning model based off the InceptionV3 model. One of the papers I read in my research used an earlier version of their model for a similar purpose, so it seemed proper to use. The most commonly predicted letters were W, Y, and P, but not none as I had expected. Interestingly enough, the model was very accurate at recognizing when there was not a sign being made, and even recognized when I was changing from one sign to another, outputing none.
+  My best model accuracy was 49%, with a transfer learning model based off the InceptionV3 model. One of the papers I read in my research used an earlier version of their model for a similar purpose, so it seemed proper to use. The most commonly predicted letters were W, Y, and P, but not none as I had expected. Interestingly enough, the model was very accurate at recognizing when there was not a sign being made, and even recognized when I was changing from one sign to another, outputing the 'none' character.
+  
 ![](images/letters.png)
 ### For the Future
   I intend to pour more time into coming up with a better model and a larger dataset. I also would like to attempt to use image segmentation to crop just the hands out of the images, allowing for a better analysis. I would also like to expand the data set to more skin types as well as increase the size of the images, for better recognition.
