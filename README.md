@@ -19,7 +19,7 @@
 ### Model
   I ended up using another transfer learning model based off of InceptionV3 when my accuracy on a custom CNN did not improve as much as I had hoped. This resulted in much higher accuracies than before, and even a slightly better training time for similar results. However, this this overfit by a great deal, most likely due to a sparcity of data.
 ### Results
-  My best model accuracy was 49%, with a transfer learning model based off the InceptionV3 model. One of the papers I read in my research used an earlier version of their model for a similar purpose, so it seemed proper to use. The most commonly predicted letters were W, Y, and P, all signs with extended fingers, which I ffound interesting. Interestingly enough, the model was very accurate at recognizing when there was not a sign being made, and even recognized when I was changing from one sign to another, outputing the 'none' character.
+  My best model accuracy was 49%, with a transfer learning model based off the InceptionV3 model. One of the papers I read in my research used an earlier version of their model for a similar purpose, so it seemed proper to use. The most commonly predicted letters were W, Y, and P, all signs with extended fingers which I found interesting. Interestingly enough, the model was very accurate at recognizing when there was not a sign being made, and even recognized when I was changing from one sign to another, outputting the 'none' character.
   
 ![](images/letters.png)
 ### For the Future
